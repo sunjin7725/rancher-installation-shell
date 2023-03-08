@@ -14,6 +14,9 @@
 RANCHER_VERSION=${COMPATIBLE_VERSION}
 RANCHER_REPLICAS=${NUM_REPLICAS}
 RANCHER_PASSWORD=${PASSWORD}
+
+chmod +x rancher.sh
+
 ./rancher.sh
 ```
 **Note**  
